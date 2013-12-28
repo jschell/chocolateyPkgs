@@ -1,1 +1,1 @@
-install-chocolateyPackage -packageName 'smplayer' -fileType 'exe' -silentArgs '/s' -url 'http://www.fosshub.com/SMPlayer.html/smplayer-0.8.6-ps-win32.exe'
+install-chocolateyPackage -packageName 'smplayer' -fileType 'exe' -silentArgs '/S' -url 'http://www.fosshub.com/SMPlayer.html/smplayer-0.8.6-ps-win32.exe' -url64bit 'http://www.fosshub.com/SMPlayer.html/smplayer-0.8.6-x64.exe'
