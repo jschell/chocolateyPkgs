@@ -7,6 +7,7 @@
         <authors>Ricardo Villalba</authors>
         <owners></owners>
         <projectUrl>http://smplayer.sourceforge.net</projectUrl>
+        <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
         <iconUrl>http://smplayer.sourceforge.net/images/smplayer_logo_big.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SMPlayer is a free media player for Windows and Linux with built-in codecs that can play virtually all video and audio formats. It doesn't need any external codecs. Just install SMPlayer and you'll be able to play all formats without the hassle to find and install codec packs.
