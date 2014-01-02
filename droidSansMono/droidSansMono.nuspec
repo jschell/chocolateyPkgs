@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DroidSansMono</id>
+        <version>2013.12.31</version>
+        <title>Droid Sans Mono</title>
+        <authors>Google Android</authors>
+        <owners></owners>
+        <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+        <projectUrl>http://code.google.com/android/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description></description>
+        <tags>font monospace </tags>
+    </metadata>
+</package>

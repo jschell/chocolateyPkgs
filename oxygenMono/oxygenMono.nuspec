@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>OxygenMono</id>
+        <version>2013.12.31</version>
+        <title>Oxygen Mono</title>
+        <authors>Vernon Adams</authors>
+        <owners></owners>
+        <licenseUrl>http://scripts.sil.org/OFL</licenseUrl>
+        <projectUrl>http://www.newtypography.co.uk/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>‘Oxygen Font’ is a project to design a desktop/gui font for integrated use with the KDE desktop. The design is based on interpolations between ‘Muli’ and ‘FontOne’ that have been further shaped to reach a clear, legible font to use within the KDE gui.
+
+The basic concept for ‘Oxygen Font’ was to design a clear, legible, sans serif, that would be rendered with Freetype on Linux-based devices. The idea was to not quite follow a ‘purist’ line of sans serif typeface formulae, but to allow some juxtapositioning of font forms to give familiarity but also a sense of newness. A version of the font is also under development that is aimed to be a branding typeface for the desktop.
+</description>
+        <tags>font monospace </tags>
+    </metadata>
+</package>
