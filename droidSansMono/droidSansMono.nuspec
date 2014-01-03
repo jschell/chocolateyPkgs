@@ -9,7 +9,7 @@
         <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
         <projectUrl>http://code.google.com/android/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description></description>
+        <description>Fixed width font from the Android Project.</description>
         <tags>font monospace droidSansMono droid mono fixedWidth fixed</tags>
     </metadata>
 </package>
