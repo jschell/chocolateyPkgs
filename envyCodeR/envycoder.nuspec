@@ -2,11 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>EnvyCodeR</id>
-        <version></version>
+        <version>2013.12.31</version>
         <title>Envy Code R PR 7</title>
         <authors>Damien Guard</authors>
         <owners></owners>
-        <licenseUrl></licenseUrl>
+        <licenseUrl>http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released</licenseUrl>
         <projectUrl>http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Envy Code R is a fully-scalable monospaced font designed for programming and command prompts.
