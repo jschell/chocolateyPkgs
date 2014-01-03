@@ -10,6 +10,6 @@
         <projectUrl>http://code.google.com/android/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description></description>
-        <tags>font monospace </tags>
+        <tags>font monospace droidSansMono droid mono fixedWidth fixed</tags>
     </metadata>
 </package>

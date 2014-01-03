@@ -23,6 +23,6 @@ Another significant change was to adjust the size of the characters in relation 
 
 Finally, unlike Anonymous™, Anonymous Pro is available in one universal TrueType format that will work on Mac OS X, Windows, and Linux. (If you're running a pre-OS X Mac, the new fonts are not compatible, but Anonymous™ will still work.)
 </description>
-        <tags>font monospace </tags>
+        <tags>font monospace anonymousPro mono fixedWidth fixed</tags>
     </metadata>
 </package>

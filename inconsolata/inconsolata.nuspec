@@ -19,6 +19,6 @@ Designing a monospace font poses unique challenges. I have carefully studied man
 
 Some details will be most apparent in print, such as the subtle curves in lowercase "t", "v", "w", and "y". Inconsolata also borrows "micro-serifs" from some Japanese Gothic fonts, which enhance the appearance of crispness and legibility.
 </description>
-        <tags>font monospace </tags>
+        <tags>font monospace inconsolata mono fixedWidth fixed</tags>
     </metadata>
 </package>

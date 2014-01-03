@@ -13,6 +13,6 @@
 
 The basic concept for ‘Oxygen Font’ was to design a clear, legible, sans serif, that would be rendered with Freetype on Linux-based devices. The idea was to not quite follow a ‘purist’ line of sans serif typeface formulae, but to allow some juxtapositioning of font forms to give familiarity but also a sense of newness. A version of the font is also under development that is aimed to be a branding typeface for the desktop.
 </description>
-        <tags>font monospace </tags>
+        <tags>font monospace oxygen oxygenMono mono fixedWidth fixed</tags>
     </metadata>
 </package>
