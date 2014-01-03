@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>smplayer</id>
-        <version>0.8.6</version>
+        <version>0.8.6.20131231</version>
         <title>SMPlayer</title>
         <authors>Ricardo Villalba</authors>
         <owners></owners>
@@ -17,6 +17,6 @@ One of the most interesting features of SMPlayer: it remembers the settings of a
 SMPlayer is a graphical user interface (GUI) for the award-winning MPlayer, which is capable of playing almost all known video and audio formats. But apart from providing access for the most common and useful options of MPlayer, SMPlayer adds other interesting features like the possibility to play Youtube videos or download subtitles. 
 </description>
         <summary>SMPlayer is a free media player for Windows and Linux with built-in codecs that can play virtually all video and audio formats. It doesn't need any external codecs. Just install SMPlayer and you'll be able to play all formats without the hassle to find and install codec packs.</summary>
-        <tags>smplayer chocolatey</tags>
+        <tags>smplayer video media player chocolatey</tags>
     </metadata>
 </package>

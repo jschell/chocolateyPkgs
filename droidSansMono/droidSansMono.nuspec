@@ -5,7 +5,7 @@
         <version>2013.12.31</version>
         <title>Droid Sans Mono</title>
         <authors>Google Android</authors>
-        <owners></owners>
+        <owners>J Schell</owners>
         <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
         <projectUrl>http://code.google.com/android/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
