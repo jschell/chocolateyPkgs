@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>schelljw.Home.Family</id>
+        <version>1.0.0</version>
+        <title>Boxstarter for family home machines</title>
+        <authors>J Schell</authors>
+        <owners>J Schell</owners>
+        <projectUrl>https://github.com/jschell/chocolateyPkgs</projectUrl>
+        <description>Boxstarter configuration for home machines for family members. Does not have some of the 'admin' or 'dev' configuration (UAC will be /on/ at completion) that are in other packages. Aimed at reducing time to pave new machine for family.
+        </description>
+        <tags>boxstarter chocolatey admin homeFamily</tags>
+    </metadata>
+</package>
