@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>displayFusion</id>
+        <version>5.1.1</version>
+        <title>Display Fusion</title>
+        <authors>Binary Fortress</authors>
+        <owners>J Schell</owners>
+        <licenseUrl></licenseUrl>
+        <projectUrl>http://www.displayfusion.com</projectUrl>
+        <iconUrl>http://www.displayfusion.com/ImagesCommon/ProductIcons64/101.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>DisplayFusion will make your multi-monitor life much easier. With powerful features like Multi-Monitor Taskbars, TitleBar Buttons and fully customizable Functions, DisplayFusion will make managing your multiple monitors easy.</description>
+        <tags>multiMonitor displayFusion display binaryFortress monitor display</tags>
+    </metadata>
+</package>
