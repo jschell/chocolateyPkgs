@@ -1,7 +1,7 @@
 try {
   $package = 'EnvyCodeR'
 
-  $fontUrl = 'http://download.damieng.com/fonts/original/EnvyCodeR-PR7.zip'
+  $fontUrl = 'http://damieng.com/downloads/latest/EnvyCodeR'
   $destination = Join-Path $Env:Temp 'EnvyCodeR'
 
   Install-ChocolateyZipPackage $package -url $fontUrl -unzipLocation $destination
