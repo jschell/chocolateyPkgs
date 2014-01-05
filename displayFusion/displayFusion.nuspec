@@ -6,7 +6,7 @@
         <title>Display Fusion</title>
         <authors>Binary Fortress</authors>
         <owners>J Schell</owners>
-        <licenseUrl></licenseUrl>
+        <licenseUrl>https://raw.github.com/jschell/chocolateyPkgs/master/displayFusion/LicenseEN.txt</licenseUrl>
         <projectUrl>http://www.displayfusion.com</projectUrl>
         <iconUrl>http://www.displayfusion.com/ImagesCommon/ProductIcons64/101.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
