@@ -1,0 +1,124 @@
+UVOv XEZH Ktep 1rXr P6r8 pxRU jv89 Dv
+
+
+
+
+Boxstarter
+
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula -surpressReboots
+# disable-internetExplorerESC
+# disable-UAC
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles
+-showFileExtensions
+update-executionPolicy -policy bypass
+enable-RemoteDesktop
+
+cup all
+
+cinst googleChrome
+cinst firefox
+cinst virtualCloneDrive
+cinst 7zip
+cinst sumatraPDF
+cinst notepadplusplus
+cinst flashplayeractivex 
+cinst flashplayerplugin 
+cinst paint.net
+cinst dropbox
+
+# cinst powershell -installs wmf3, does /not/ have dotnet4 dependency linked
+# cinst dotnet4.0 -required for wmf3
+
+# cinst powershell4 -has the dotnet4.5 dependency linked
+# cinst dotnet4.5.1
+
+#? cinst calibre
+# cinst dotPeek -dev
+
+cinst passwordsafe
+
+#? cccp
+#? smplayer
+
+
+
+# cinst winscp -ops
+# cinst vagrant -dev
+# cinst fiddler4 -dev
+# cinst grepWin -dev
+# cinst tortoisesvn -dev -ops
+cinst teamviewer -ops -home
+cinst silverlight
+cinst itunes -home
+#? cinst adobeAir
+#? cinst quicktime
+# cinst github -dev
+# cinst imgburn -ops
+# cinst utorrent
+
+# cinst microsoftSecurityEssentials
+# cinst kis (14)
+
+# cinst rdcman -ops
+# cinst puppet -ops -dev
+cinst f.lux
+# cinst SqlServer2012Express -dev
+# cinst webpi -dev -ops
+# cinst steam -ent
+# cinst skydrive
+# cinst putty -ops
+# cinst rsat.featurePack -ops
+# cinst nugetPackageExplorer -dev
+# cinst proget -server
+# cinst rdcMan -dev -ops
+# cinst listary -ops
+# cinst vmwareVsphereClient -ops (5.5)
+
+# cinst visualStudioExpress2012Web -dev
+# cinst visualStudio2013ExpressWeb -dev
+
+##
+# cinst visualStudio2012Premium
+# cinst visualStudio2012Professional
+# cinst visualStudio2012TestProfessional
+# cinst visualStudio2012Ultimate
+##
+# cinst visualStudio2013Premium
+# cinst visualStudio2013Professional
+# cinst visualStudio2013Ultimate
+##
+
+
+# install-chocolateyDesktopLink 'c:\users\public\foo.exe'
+# install-chocolateyPinnedTaskBarItem 'c:\users\public\foo.exe'
+
+$firefox = dir $env:ProgramFiles,"$env:ProgramFiles (x86)" -recurse firefox.exe | select -first 1
+
+$notepadpp = dir $env:ProgramFiles,"$env:ProgramFiles (x86)" -recurse notepad++.exe
+
+install-chocolateyPinnedTaskBarItem $firefox.fullName
+install-chocolateyPinnedTaskBarItem $notepadpp.fullName
+install-chocolateyPinnedTaskBarItem 'C:\Windows\System32\taskmgr.exe'
+
+
+
+install-chocolateyFileAssociation ".txt" $notepadplusplus #requires admin rights
+
+
+# .nuspec
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id></id>
+        <version></version>
+        <title></title>
+        <authors></authors>
+        <owners></owners>
+        <projectUrl></projectUrl>
+        <iconUrl></iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description></description>
+        <summary></summary>
+        <tags>chocolatey admin</tags>
+    </metadata>
+</package>
