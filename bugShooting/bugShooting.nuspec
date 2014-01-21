@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>bugShooting</id>
+        <version>2.12.2.731</version>
+        <title>Bug Shooting</title>
+        <authors>Alexej Hirsch</authors>
+        <owners>J Schell</owners>
+        <licenseUrl>http://www.bugshooting.com/Home/LicenseAgreement</licenseUrl>
+        <projectUrl>http://www.bugshooting.com/</projectUrl>
+        <iconUrl>http://www.bugshooting.com/Content/images/title_bug_small.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>With Bug Shooting, creating screen captures and sending them to various bug tracking and issue management systems, e-mail, image editing and instant messaging applications is done in a breeze.
+
+# Intelligent capture mode
+- With the intelligent capture mode, it is as simple as never before to capture the screen. You can capture an area, a window, or the full screen, without having to change the capture mode. Try it out, you will love it.
+- Magnifier supports you during the capture and allow pixel-fine region selection.
+
+# Edit functions
+- Create professional graphics by adding different effects to your screenshots. Add text, arrows or other graphics.
+- The tool gallery gives you easy and quick access to frequently used tools. The gallery may be adapted to your needs.
+- Screenshots sometimes contain secret information (e.g. passwords) that should not be passed on. With the blur tool you can hide such information by blurring them so they cannot be recognized.
+
+# Share screenshots
+- Send your Screenshots directly to different applications (Outputs). Bug Shooting supports many Outputs, such as bug tracking and issue management systems, e-mail, image editing and instant messaging applications. Following applications are supported:
+    FogBugz, Gemini, OnTime, BugTracker.NET, Mantis BT, Done.Done., JIRA, Bugzilla, SpiraTest, elementool, Unfuddle, informUp, BugNET, BUGtrack, YouTRACK, Assembla, ImageShack, Twitpic, Abload.de, Skype, Lync 2010, Default Email Client, Gimp, MS Outlook, MS Word, MS Excel, MS Paint, Thunderbird, FTP, Command line
+- Of course, you can save your graphics in various image file format and print them as well.
+
+# Other functions
+- Bug Shooting automatically storage the captured screenshots and the edited graphics in a library. This provides you with quick access to your captures.
+- Bug Shooting provide functions for direct storage of screenshots on the hard drive or for sending these to an Output without editing the screenshot in the editor.
+- Bug Shooting provides an API (Application Programming Interface ) for creation of custom Outputs. See the documentation of the Output API here.
+
+# Free for personal use
+- The free license is only usable in a personal and non-commercial context. Commercial use of Bug Shooting requires the purchasing of an commercial license.
+    http://www.bugshooting.com/Home/LicensePersonal</description>
+        <summary>With Bug Shooting, creating screen captures and sending them to various bug tracking and issue management systems, e-mail, image editing and instant messaging applications is done in a breeze.</summary>
+        <releaseNotes>http://www.bugshooting.com/Home/ReleaseNotes</releaseNotes>
+        <tags>bugShooting bug shooting screenCapture capture screen</tags>
+    </metadata>
+</package>
