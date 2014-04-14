@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>smplayer</id>
-        <version>0.8.6</version>
+        <version>14.3.0</version>
         <title>SMPlayer</title>
         <authors>Ricardo Villalba</authors>
         <owners></owners>
@@ -18,6 +18,6 @@ SMPlayer is a graphical user interface (GUI) for the award-winning MPlayer, whic
 </description>
         <summary>SMPlayer is a free media player for Windows and Linux with built-in codecs that can play virtually all video and audio formats. It doesn't need any external codecs. Just install SMPlayer and you'll be able to play all formats without the hassle to find and install codec packs.</summary>
         <tags>smplayer video media player multimedia</tags>
-        <releaseNotes>Updated to current version (0.8.6), added x64 release. x64 cannot coexist with x86 version.</releaseNotes>
+        <releaseNotes>This is the first version following the 0.8.6 release, the project has moved to using YEAR.MONTH version numbers. <![CDATA[http://blog.smplayer.info/smplayer-14-3-released/]]></releaseNotes>
     </metadata>
 </package>
