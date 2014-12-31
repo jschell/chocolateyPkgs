@@ -1,1 +1,1 @@
-﻿install-chocolateyPackage -packageName 'smplayer' -fileType 'EXE' -silentArgs '/S' -url 'http://downloads.sourceforge.net/project/smplayer/SMPlayer/14.3.0/smplayer-14.3.0-win32.exe' -url64bit 'http://downloads.sourceforge.net/project/smplayer/SMPlayer/14.3.0/smplayer-14.3.0-x64.exe'
+install-chocolateyPackage -packageName 'smplayer' -fileType 'EXE' -silentArgs '/S' -url 'http://downloads.sourceforge.net/project/smplayer/SMPlayer/14.9.0/smplayer-14.9.0-win32.exe' -url64bit 'http://downloads.sourceforge.net/project/smplayer/SMPlayer/14.9.0/smplayer-14.9.0-x64.exe'
