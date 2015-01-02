@@ -5,15 +5,17 @@
         <version>7.3.400</version>
         <title>doPDF</title>
         <authors>Softland</authors>
-        <owners>J Schell</owners>
-        <licenseUrl>https://raw.github.com/jschell/chocolateyPkgs/master/doPDF/License.rtf</licenseUrl>
+        <owners>schelljw</owners>
+        <licenseUrl>https://cdn.rawgit.com/jschell/chocolateyPkgs/master/doPDF/License.rtf</licenseUrl>
         <projectUrl>http://www.dopdf.com</projectUrl>
-        <iconUrl>http://www.dopdf.com/images/logo.png</iconUrl>
+        <iconUrl>https://cdn.rawgit.com/jschell/chocolateyPkgs/master/doPDF/doPDF-logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description> *Package will stay at 7.3.400 while Softland (creators) resolve silent install issues in v8+ *   
     
     doPDF is a free PDF creator that does what the name suggests, creates PDF files. Once installed it will allow you to convert any type of printable documents to PDF files. doPDF installs itself as a virtual PDF printer driver so after a successful installation will appear in your Printers and Faxes list and also in the list of All Programs. 
+    
     No GhostScript or .NET - doPDF doesn’t require 3rd party programs to make PDF files such as GhostScript or runtime environments like the .NET Framework. This makes the setup file to be incredibly small compared to other free PDF creator programs. 
+    
     doPDF is the ONLY free pdf maker whose interface is currently available in 33 different languages and has a website translated in 30 languages (and growing, thanks to our translators). </description>
         <tags>doPDF pdfPrint print printer printpdf pdf</tags>
     </metadata>

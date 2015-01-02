@@ -5,10 +5,10 @@
         <version>7.0</version>
         <title>Display Fusion</title>
         <authors>Binary Fortress</authors>
-        <owners>J Schell</owners>
+        <owners>schelljw</owners>
         <licenseUrl><![CDATA[http://www.binaryfortress.com/data/download/?package=displayFusion&licenseEN=1&log=0]]></licenseUrl>
         <projectUrl>http://www.displayfusion.com</projectUrl>
-        <iconUrl>http://www.displayfusion.com/ImagesCommon/ProductIcons64/101.png</iconUrl>
+        <iconUrl>https://cdn.rawgit.com/jschell/chocolateyPkgs/master/displayFusion/displayFusion-logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>DisplayFusion will make your multi-monitor life much easier. With powerful features like Multi-Monitor Taskbars, TitleBar Buttons and fully customizable Functions, DisplayFusion will make managing your multiple monitors easy.</description>
         <tags>multiMonitor displayFusion display binaryFortress monitor display</tags>
