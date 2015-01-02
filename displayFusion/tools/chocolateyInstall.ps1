@@ -25,8 +25,11 @@ else
 
 $dirPath = "\DisplayFusion"
 $installPath = $progFile + $dirPath
-
 $localeTwoLetter = (Get-Culture).TwoLetterISOLanguageName
-$silentOptions = "/VERYSILENT /LANG=$localeTwoLetter /DIR=`"$installPath`" /STARTUPALL=1 /MERGETASKS=`"!desktopicon,!desktopicon\common,!desktopicon\user`" "
 
-install-ChocolateyPackage -packageName 'displayFusion' -fileType 'exe' -silentArgs $silentOptions -url  'http://www.binaryfortress.com/Data/Download/?package=displayfusion'
+$packageName = 'displayFusion'
+$fileType = 'EXE'
+$silentArgs = "/VERYSILENT /LANG=$localeTwoLetter /DIR=`"$installPath`" /STARTUPALL=1 /MERGETASKS=`"!desktopicon,!desktopicon\common,!desktopicon\user`" "
+$url = 'http://www.binaryfortress.com/Data/Download/?package=displayfusion'
+
+install-ChocolateyPackage -packageName $packageName -fileType $fileType -silentArgs $silentArgs -url $url
