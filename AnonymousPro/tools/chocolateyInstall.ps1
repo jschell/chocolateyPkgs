@@ -1,21 +1,22 @@
-try {
-  $package = 'AnonymousPro'
+﻿try 
+{
+    $packageName = 'anonymouspro'
+    $url = 'http://www.fontsquirrel.com/fonts/download/Anonymous-Pro'
+    
+    $destination = Join-Path $Env:Temp $packageName
 
-  $fontUrl = 'http://www.fontsquirrel.com/fonts/download/Anonymous-Pro'
-  $destination = Join-Path $Env:Temp 'AnonymousPro'
+    Install-ChocolateyZipPackage $packageName -url $url -unzipLocation $destination
 
-  Install-ChocolateyZipPackage $package -url $fontUrl -unzipLocation $destination
+    $shell = New-Object -ComObject Shell.Application
+    $fontsFolder = $shell.Namespace(0x14)
 
-  $shell = New-Object -ComObject Shell.Application
-  $fontsFolder = $shell.Namespace(0x14)
+    Get-ChildItem $destination -Recurse -Filter *.ttf |
+        ForEach-Object { $fontsFolder.CopyHere($_.FullName) }
 
-  Get-ChildItem $destination -Recurse -Filter *.ttf |
-    % { $fontsFolder.CopyHere($_.FullName) }
-
-  Remove-Item $destination -Recurse
-
-  Write-ChocolateySuccess $package
-} catch {
-  Write-ChocolateyFailure $package "$($_.Exception.Message)"
-  throw
+    Remove-Item $destination -Recurse
+} 
+catch 
+{
+    Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
+    throw
 }

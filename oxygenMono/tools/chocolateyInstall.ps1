@@ -1,21 +1,24 @@
-try {
-  $package = 'OxygenMono'
+﻿try 
+{
+    $packageName = 'oxygenmono'
+    $url = 'http://www.fontsquirrel.com/fonts/download/oxygen-mono'
 
-  $fontUrl = 'http://www.fontsquirrel.com/fonts/download/oxygen-mono'
-  $destination = Join-Path $Env:Temp 'OxygenMono'
+    $destination = Join-Path $Env:Temp $packageName
 
-  Install-ChocolateyZipPackage $package -url $fontUrl -unzipLocation $destination
+    Install-ChocolateyZipPackage $packageName -url $url -unzipLocation $destination
 
-  $shell = New-Object -ComObject Shell.Application
-  $fontsFolder = $shell.Namespace(0x14)
+    $shell = New-Object -ComObject Shell.Application
+    $fontsFolder = $shell.Namespace(0x14)
 
-  Get-ChildItem $destination -Recurse -Filter *.otf |
-    % { $fontsFolder.CopyHere($_.FullName) }
+    Get-ChildItem $destination -Recurse -Filter *.otf |
+        ForEach-Object { $fontsFolder.CopyHere($_.FullName) }
 
-  Remove-Item $destination -Recurse
+    Remove-Item $destination -Recurse
 
-  Write-ChocolateySuccess $package
-} catch {
-  Write-ChocolateyFailure $package "$($_.Exception.Message)"
-  throw
+    Write-ChocolateySuccess $package
+} 
+catch 
+{
+    Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
+    throw
 }

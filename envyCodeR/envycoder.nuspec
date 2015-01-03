@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>EnvyCodeR</id>
-        <version>2014.01.04</version>
+        <id>envycoder</id>
+        <version>2015.01.02</version>
         <title>Envy Code R PR 7</title>
         <authors>Damien Guard</authors>
-        <owners>J Schell</owners>
+        <owners>schelljw</owners>
         <licenseUrl>http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released</licenseUrl>
         <projectUrl>http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>

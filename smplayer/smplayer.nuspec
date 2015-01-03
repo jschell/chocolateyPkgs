@@ -5,7 +5,7 @@
         <version>14.9.0</version>
         <title>SMPlayer</title>
         <authors>Ricardo Villalba</authors>
-        <owners></owners>
+        <owners>schelljw</owners>
         <projectUrl>http://smplayer.sourceforge.net</projectUrl>
         <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
         <iconUrl>http://smplayer.sourceforge.net/images/smplayer_logo_big.png</iconUrl>
