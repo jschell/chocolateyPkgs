@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-        <id>DroidSansMono</id>
-        <version>2013.12.31</version>
+        <id>droidsansmono</id>
+        <version>2014.12.31</version>
         <title>Droid Sans Mono</title>
-        <authors>Google Android</authors>
-        <owners>J Schell</owners>
+        <authors>Steve Matteson</authors>
+        <owners>schelljw</owners>
         <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
-        <projectUrl>http://code.google.com/android/</projectUrl>
+        <projectUrl>http://www.google.com/fonts/specimen/Droid+Sans+Mono</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Fixed width font from the Android Project.</description>
+        <description>Droid Sans Mono is a fixed width version of Droid Sans. The Droid Sans Mono typefaces were designed by Steve Matteson of Ascender Corp. The Droid Sans Mono fonts feature non-proportional spacing for displaying text in a tabular setting and other uses where a monospaced font is desired. Droid Sans Mono has excellent legibility characteristics in its letterforms.
+
+More information on the Droid Fonts can be found at <![CDATA[http://www.droidfonts.com]]></description>
         <tags>font monospace droidSansMono droid mono fixedWidth fixed</tags>
     </metadata>
 </package>

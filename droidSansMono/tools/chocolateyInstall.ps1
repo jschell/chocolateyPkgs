@@ -1,21 +1,22 @@
-try {
-  $package = 'DroidSansMono'
+﻿try 
+{
+    $packageName = 'droidsansmono'
+    $url = 'http://www.fontsquirrel.com/fonts/download/droid-sans-mono'
 
-  $fontUrl = 'http://www.fontsquirrel.com/fonts/download/droid-sans-mono'
-  $destination = Join-Path $Env:Temp 'DroidSansMono'
+    $destination = Join-Path $Env:Temp $packageName
 
-  Install-ChocolateyZipPackage $package -url $fontUrl -unzipLocation $destination
+    Install-ChocolateyZipPackage $packageName -url $url -unzipLocation $destination
 
-  $shell = New-Object -ComObject Shell.Application
-  $fontsFolder = $shell.Namespace(0x14)
+    $shell = New-Object -ComObject Shell.Application
+    $fontsFolder = $shell.Namespace(0x14)
 
-  Get-ChildItem $destination -Recurse -Filter *.ttf |
-    % { $fontsFolder.CopyHere($_.FullName) }
+    Get-ChildItem $destination -Recurse -Filter *.ttf |
+        ForEach-Object { $fontsFolder.CopyHere($_.FullName) }
 
-  Remove-Item $destination -Recurse
-
-  Write-ChocolateySuccess $package
-} catch {
-  Write-ChocolateyFailure $package "$($_.Exception.Message)"
-  throw
+    Remove-Item $destination -Recurse
+} 
+catch 
+{
+    Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
+    throw
 }
