@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>bugShooting</id>
-        <version>2.12.2.731</version>
+        <id>bugshooting</id>
+        <version>2.12.4.744</version>
         <title>Bug Shooting</title>
         <authors>Alexej Hirsch</authors>
-        <owners>J Schell</owners>
+        <owners>schelljw</owners>
         <licenseUrl>http://www.bugshooting.com/Home/LicenseAgreement</licenseUrl>
         <projectUrl>http://www.bugshooting.com/</projectUrl>
-        <iconUrl>http://www.bugshooting.com/Content/images/title_bug_small.png</iconUrl>
+        <iconUrl>https://cdn.rawgit.com/jschell/chocolateyPkgs/master/bugShooting/bugShooting-logo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>With Bug Shooting, creating screen captures and sending them to various bug tracking and issue management systems, e-mail, image editing and instant messaging applications is done in a breeze.
 

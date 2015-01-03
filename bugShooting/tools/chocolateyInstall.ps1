@@ -1,11 +1,15 @@
-$osInfo = Get-WmiObject Win32_OperatingSystem | SELECT Version, ProductType, Caption
-$osInfo.Version = [version] $osInfo.Version
+﻿# Package requires .net 3.5
 
-# Get the .Net 3.5 Framework installed
+$osInfo = Get-WmiObject Win32_OperatingSystem | select-object Version
+$osInfo.Version = [version] $osInfo.Version
 
 if ($osInfo.Version -lt [version]'6.2') 
 {
-    cinst DotNet3.5
+    # Less than 2012/Win8, test if the directory is present for .net3.5
+    if( !(test-path 'C:\WINDOWS\Microsoft.NET\Framework\v3.5') )
+    {
+        choco install DotNet3.5
+    }
 }
 
 else 
@@ -19,5 +23,9 @@ else
 
 # End of .Net 3.5 install hackery... smh
 
-$silentOptions = "/SILENT /MULTIUSER=1 /LINKDESKTOP=0"
-install-ChocolateyPackage -packageName 'bugShooting' -fileType 'exe' -silentArgs $silentOptions -url  'http://www.bugshooting.com/Home/Download?Mode=Start'
+$packageName = 'bugshooting'
+$fileType = 'exe'
+$url = 'http://www.bugshooting.com/Home/Download?Mode=Start'
+$silentArgs = "/SILENT /LINKDESKTOP=0 /MULTIUSER=1 /LINKAUTOSTART=1"
+
+install-ChocolateyPackage -packageName $packageName -fileType $fileType -silentArgs $silentArgs -url $url
