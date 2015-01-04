@@ -1,19 +1,4 @@
-function get-osArch
-{
-    $ptr = [intptr]::size
-    if($ptr -eq 8)
-    {
-        $os = 64
-    }
-    else
-    {
-        $os = 32
-    }
-
-    return $os
-}
-
-$arch = get-osArch
+$arch = get-processorBits
 if($arch -eq 64 )
 {
     $progFile = "$env:programFiles (x86)"
